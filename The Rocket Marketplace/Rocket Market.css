@@ -1,0 +1,51 @@
+body
+{
+  background-image: url("/Screenshot (28).png"); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: blue;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  filter: drop-shadow(.5rem .5rem 1rem rgb(2, 2, 2))
+}
+
+button
+{
+  width: 10%;
+  height: 6%;
+  font-size: 110%;
+  background-color: white;
+  color: blue;
+  font-weight: bold;
+  border: 3px solid;
+  border-radius: 8px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  transition: 0.3s;
+}
+
+button:hover
+{
+  background: rgba(247, 244, 244, 0.900);
+}
+
+button:active
+{
+  background: #2e2e2e;
+  border: 1px solid black;
+  color: white;
+}
+
+hr 
+{
+  margin: 20px 0px 20px 0px;
+  padding: 0px;
+  border: 0;
+  border-bottom: 1px transparent;
+}
+
+canvas
+{
+  position: fixed;
+}

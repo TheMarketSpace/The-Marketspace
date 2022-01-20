@@ -1,0 +1,37 @@
+body
+{
+  background-image: url("New Piskel-1.png (8).png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: blue;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button
+{
+  width: 20%;
+  height: 20%;
+  font-size: 100px;
+  background-color: transparent;
+  color: blue;
+  font-weight: bold;
+  border: transparent;
+  border-radius: 8px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  transition: 0.5s;
+}
+
+button:hover
+{
+  background: grey;
+}
+
+button:active
+{
+  background: #2e2e2e;
+  color: white;
+}

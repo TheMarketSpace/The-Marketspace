@@ -1,0 +1,148 @@
+/* 
+NOTE: remember that CSS styling is applied in this order:
+1 - element-based, i.e. button
+2 - class-based, i.e. .menuButton
+3 - id-based, i.e. #submitUsernameButton
+*/
+
+body
+{
+  background-image: url("Screenshot (4).png"); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  filter: drop-shadow(.5rem .5rem 1rem rgb(2, 2, 2))
+}
+
+/* BUTTON STYLINGS */
+button
+{
+  width: 20%;
+  height: 20%;
+  font-size: 30px;
+  background-color: white;
+  color: blue;
+  font-weight: bold;
+  border: 3px solid;
+  border-radius: 8px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  transition: 0.3s;
+  
+}
+
+/* class-based button selectors */ 
+
+.button-marketplace-group-2
+{
+  transition: 0.3s;
+  border-radius: 16px;
+}
+
+.videosbutton
+{
+  color: white;
+  background-color: red;
+}
+
+.button-marketplace-group
+{
+  transition: 0.3s;
+  border-radius: 16px;
+}
+
+.buttontype3
+{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: red
+}
+#buttontype3\1
+{
+  font-size: 500px
+}
+.buttontype2
+{
+  font-family: 'Courier New', Courier, monospace;
+} 
+
+.cookie_clear
+{
+  font-style: italic;
+}
+
+hr 
+{
+  margin: 20px 0px 20px 0p;
+  padding: 0px;
+  border: 0;
+  border-bottom: 1px transparent;
+}
+
+
+/* id-based button selectors */
+
+#buttontype2\1
+{
+  border-radius: 16px
+}
+
+#rocketplaceNews
+{
+  transition: 1s
+}
+
+
+
+/* button state styling ... i.e. hover/active */
+
+
+
+button:hover
+{
+  background: lightskyblue;
+}
+
+button:active
+{
+  background: #1f1e1e;
+  color: white;
+}
+
+/* INPUT STYLINGS */
+
+input
+{
+  width: 20%;
+  height: 20%;
+  font-size: 30px;
+  background-color: white;
+  color: blue;
+  font-weight: bold;
+  border: 3px solid;
+  border-radius: 8px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  transition: all 0.3s;
+}
+
+/* input state styling ... i.e active / hover */
+input:hover
+{
+  background: grey;
+}
+
+input:active
+{
+  background: #2e2e2e;
+}
+
+/* styles placeholder text in input */
+::placeholder
+{
+  color: blue;
+  opacity: 1;
+}

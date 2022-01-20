@@ -1,0 +1,25 @@
+----- HTML / CSS CHEATSHEETS -----
+
+https://ilovecoding.org/blog/htmlcss-cheatsheet
+https://htmlcheatsheet.com/
+https://htmlcheatsheet.com/css/
+
+
+----- HOW TO USE COOKIES IN JAVASCRIPT -----
+
+https://www.w3schools.com/js/js_cookies.asp
+
+
+----- HOW TO CHANGE HOW PROMPTS LOOK -----
+
+https://stackoverflow.com/questions/7056770/changing-the-way-a-javascript-alert-or-prompt-looks
+
+
+----- HOW TO RESET COOKIES -----
+
+(this is untested but looks valid; not sure if this is deleting ONE users cookies or ALL users cookies, i think former case honestly)
+
+https://stackoverflow.com/questions/595228/how-can-i-delete-all-cookies-with-javascript
+
+
+----- Script.js functions being utilized on HTML-----
